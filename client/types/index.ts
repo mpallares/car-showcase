@@ -27,7 +27,7 @@ export interface OptionProps {
 }
 
 export interface CustomFilterProps {
-  setFilter: (selected: T) => void;
+  setFilter: (selected: any) => void;
   title: string;
   options: OptionProps[];
 }
