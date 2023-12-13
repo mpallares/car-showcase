@@ -27,6 +27,7 @@ export interface OptionProps {
 }
 
 export interface CustomFilterProps {
+  setFilter: (filter: string | number) => void;
   title: string;
   options: OptionProps[];
 }
